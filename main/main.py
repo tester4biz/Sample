@@ -17,9 +17,5 @@ class Main():
     def get_age(self):
         return self.age
 
-
-if __name__ == '__main__':
-    m = Main('taro', 30)
-
-    print(m.get_name())
-    print(m.get_age())
+    def greeting():
+        return 'hello ! I am ' + self.name + ' and I am ' + str(self.age) + ' years old!'
